@@ -6,7 +6,7 @@
 cuda + cudnn + pytorch，具体版本无特殊要求
 
 ## 数据集说明：
-本项目采用GoPro数据集进行训练和测试，数据集地址为https://drive.google.com/file/d/1H0PIXvJH4c40pk7ou6nAwoxuR4Qh_Sa2/view?usp=sharing，下载后需重新组织一下图片编排，可运行python reorganize_dataset.py进行重排，参数--dir_in为原始数据路径，--dir_out为重排后数据路径。
+本项目采用GoPro数据集进行训练和测试，数据集地址为https://drive.google.com/file/d/1H0PIXvJH4c40pk7ou6nAwoxuR4Qh_Sa2/view?usp=sharing, 下载后需重新组织一下图片编排，可运行python reorganize_dataset.py进行重排，参数--dir_in为原始数据路径，--dir_out为重排后数据路径。
 
 如果想使用你自己的数据集，请注意以下几点：
 - 在该目录下新建train文件夹，train目录下，需有A和B两个子文件夹，其中A存放模糊图，B存放清晰图，A和B中对应图片命名需一致。
